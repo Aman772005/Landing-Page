@@ -69,6 +69,7 @@ text-align: center;
 
 .f-text h1{
     font-size: 60px;
+    text-transform: uppercase;
 }
 
 .f-text p{
@@ -153,9 +154,162 @@ nav .icon{
 .nav-link ul{
     padding: 35px;
 }
-
-
 }
+
+.Course{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 100px 0 0 0;
+}
+
+.Course h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 0 0 30px 0;
+    text-transform: uppercase;
+}
+
+.Course p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(84, 84, 84);
+}
+.course-col{
+    display: flex;
+    justify-content: space-between;
+    margin: 7% 0 0 0;
+}
+.col-info{
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    transition: 0.5s;
+}
+
+.col-info h3{
+    padding: 5px 0 10px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.col-info:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2)
+}
+
+@media(max-width:700px){
+    .Course h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 0 25px 0;
+    text-transform: uppercase;
+}
+.Course p{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(84, 84, 84);
+}
+.course-col{
+    display: inline-block;
+    margin: 50px 0 20px 0 ;
+}
+}
+
+
+
+.campus{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px ;
+}
+.campus h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+}
+.campus p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 20px;
+    margin: 50px 0 30px 0 ;
+    position: relative;
+    overflow: hidden;
+}
+
+.campus-col img{
+    width: 100%;
+    display: block;
+}
+
+.layer{
+    background-color:transparent;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background-color: #f44336;
+}
+.layer h3{
+    width: 100%;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 500;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom:49%;
+    opacity: 1;
+}
+
+@media(max-width:700px){
+    .row{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

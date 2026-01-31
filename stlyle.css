@@ -377,6 +377,11 @@ nav .icon{
     font-size: 25px;
     font-weight: 600;
 }
+@media(max-width:700px){
+    .testimonial{
+        margin-top: 100px;
+    }
+}
 
 
 

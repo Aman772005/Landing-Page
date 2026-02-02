@@ -383,6 +383,49 @@ nav .icon{
     }
 }
 
+.cont{
+    width: 80%;
+    text-align: center;
+    margin: 100px auto;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cont h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media(max-width:700px){
+    .cont h1{
+        font-size: 25px;
+    }
+}
+
+.footer{
+    width: 80%;
+    margin:100px auto;
+    text-align: center;
+    padding: 20px ;
+}
+.footer h4{
+    font-size: 20px;
+    margin:20px ;
+    font-weight: 600;
+}
+.icons{
+    color: black;
+    margin: 50px 0 10px 0  ;
+    color: #f44336;
+}
+.icons i{
+     padding: 0 5px 0 5px;
+}
+
 
 
 
